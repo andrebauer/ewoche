@@ -3,26 +3,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>OVM-Unterrichtsmaterial | Unterrichtsmaterial zu den Themen Anwendungsentwicklung, Mathematik und Betriebssysteme.</title>
+<title>Programmieren mit Processing | OVM-Unterrichtsmaterial</title>
 <meta name="generator" content="Jekyll v3.8.3" />
-<meta property="og:title" content="OVM-Unterrichtsmaterial" />
+<meta property="og:title" content="Programmieren mit Processing" />
+<meta name="author" content="André Bauer" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Unterrichtsmaterial zu den Themen Anwendungsentwicklung, Mathematik und Betriebssysteme." />
 <meta property="og:description" content="Unterrichtsmaterial zu den Themen Anwendungsentwicklung, Mathematik und Betriebssysteme." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/docs/einfuehrungswoche/aufgabe/" />
+<meta property="og:url" content="http://localhost:4000/docs/einfuehrungswoche/aufgabe/" />
 <meta property="og:site_name" content="OVM-Unterrichtsmaterial" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-15T08:19:38+02:00" />
 <script type="application/ld+json">
-{"description":"Unterrichtsmaterial zu den Themen Anwendungsentwicklung, Mathematik und Betriebssysteme.","@type":"WebSite","url":"http://localhost:4000/","name":"OVM-Unterrichtsmaterial","headline":"OVM-Unterrichtsmaterial","@context":"http://schema.org"}</script>
+{"description":"Unterrichtsmaterial zu den Themen Anwendungsentwicklung, Mathematik und Betriebssysteme.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/einfuehrungswoche/aufgabe/"},"@type":"BlogPosting","url":"http://localhost:4000/docs/einfuehrungswoche/aufgabe/","headline":"Programmieren mit Processing","dateModified":"2018-08-15T08:19:38+02:00","datePublished":"2018-08-15T08:19:38+02:00","author":{"@type":"Person","name":"André Bauer"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <!-- jQuery library -->
+<!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="/assets/vendor/processing.min.js"></script>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/ovm.css">
@@ -32,27 +31,9 @@
   <script src="/assets/vendor/d3.min.js"></script>
   <script src="/assets/vendor/function-plot.js"></script>
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="OVM-Unterrichtsmaterial" /></head>
-<body ><div id="navbar-top" class="px-0">
-  <nav id="navbar-top-nav" class="navbar navbar-expand-md bg-blue-lightest fixed-top border-b border-dotted border-blue-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="/">
-      <img src="/images/Logo-RSBS-SVG_mini-blau.svg" alt="OvM-Kassel" style="width:40px;">
-    </a>
+<body >
     
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-	
-      </ul>
-    </div>
-  </nav>
-</div>
-<div id="after-navbar" class="md:flex md:flex-row top-16">
+    <div id="after-navbar" class="md:flex md:flex-row top-16">
       <div class="md:w-1/4">
       </div>
       <div id="sidebar-left" class="md:w-1/4 z-90 md:block sidenav">
@@ -70,37 +51,653 @@
 	<main class="page-content" aria-label="Content">
 	  <div >
 	    <div class="max-w-2xl">
-              <div class="home"><h2>Lehrpläne</h2>
-<ul></ul>
-<li>
-<a href='https://www.kmk.org/themen/berufliche-schulen/duale-berufsausbildung/downloadbereich-rahmenlehrplaene.html?type=150&amp;tx_fedownloads_pi1%5Bdownload%5D=12669&amp;tx_fedownloads_pi1%5Baction%5D=forceDownload&amp;tx_fedownloads_pi1%5Bcontroller%5D=Downloads&amp;cHash=c9f65aae607c65ec91ce9c2d2eafde3e'>
-Fachinformatiker/in
-</a>
-</li>
-<li>
-<a href='https://www.kmk.org/themen/berufliche-schulen/duale-berufsausbildung/downloadbereich-rahmenlehrplaene.html?type=150&amp;tx_fedownloads_pi1%5Bdownload%5D=12760&amp;tx_fedownloads_pi1%5Baction%5D=forceDownload&amp;tx_fedownloads_pi1%5Bcontroller%5D=Downloads&amp;cHash=66ca91d1e5fb0571e392919d15fef72f'>
-Informations- und Telekommunikationssystem-Elektroniker/in
-</a>
-</li>
-<li>
-<a href='https://kultusministerium.hessen.de/sites/default/files/HKM/lp_hbfs_berufsb_informationsverarbeitung-technik.pdf'>
-Zweijährige Höhere Berufsfachschule Fachrichtung Informationsverarbeitung – Technik
-</a>
-</li>
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">May 19, 2018</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2018/05/19/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li><li><span class="post-meta">May 19, 2018</span>
-        <h3>
-          <a class="post-link" href="/jekyll/asciidoc/2018/05/19/diagram.html">
-            Diagram in a Post
-          </a>
-        </h3></li></ul>
+              <div class="mb-12">
+  <header>
+    <div>7. August 2018 |
+      <h3 class="text-lg inline">Lernsituation IT-EINF-LS-1.1 </h3>
+    </div>
+    <h1 class="text-5xl mt-2">Programmieren mit Processing</h1><h2 class="mt-2 text-3xl">Aufgaben zur Einführungswoche</h3><p>André Bauer
+      <span class="whitespace-no-wrap">
+	&lt;a(dot)bauer(at)ovm-kassel(dot)de&gt; 
+      </span>
+    </p>
+  </header>
+  
+</div>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<div id="toc" class="toc">
+<div id="toctitle">Inhalt</div>
+<ul class="sectlevel1">
+<li><a href="#_vorbereitung">1. Vorbereitung</a></li>
+<li><a href="#_niveau-1">2. Niveau 1</a>
+<ul class="sectlevel2">
+<li><a href="#_beispiel">Beispiel</a></li>
+<li><a href="#_aufgaben">Aufgaben</a></li>
+</ul>
+</li>
+<li><a href="#_niveau-2">3. Niveau 2</a>
+<ul class="sectlevel2">
+<li><a href="#_beispiel-2">Beispiel</a></li>
+<li><a href="#_aufgaben-2">Aufgaben</a></li>
+</ul>
+</li>
+<li><a href="#_niveau-3">4. Niveau 3</a>
+<ul class="sectlevel2">
+<li><a href="#_beispiele">Beispiele</a></li>
+<li><a href="#_aufgaben-3">Aufgaben</a></li>
+</ul>
+</li>
+<li><a href="#_niveau-4">5. Niveau 4</a>
+<ul class="sectlevel2">
+<li><a href="#_mögliche-aufgaben">Mögliche Aufgaben</a></li>
+<li><a href="#_hilfen">Hilfen</a></li>
+</ul>
+</li>
+<li><a href="#_links">6. Links</a></li>
+<li><a href="#_lizenz">Lizenz</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_vorbereitung">1. Vorbereitung</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Um <a href="https://processing.org/download/">Processing</a> zu installieren, als
+Entwicklungsumgebung kennen zu lernen und auch erste Programme zu schreiben&#8201;&#8212;&#8201;diese werden in Processing <em>Sketches</em> genannt --,
+folgen Sie dem einführenden Abschnitt
+<a href="http://michaelkipp.de/processing/02%20processing.html">Processing - Entwicklungsumgebung</a>  von Michael Kipp.</p>
+</div>
+<div class="paragraph">
+<p>Alle Befehle sind in der englischsprachigen
+<a href="https://processing.org/reference/">Processing Language Referenz (API)</a>
+dokumentiert und werden dort auch anhand von Beispielen erläutert.</p>
+</div>
+<div class="paragraph">
+<p>Es werden Aufgaben auf verschiedenen Schwierigkeitsniveaus angeboten. Wählen
+Sie entsprechend Ihrer Vorkenntnisse das passende aus.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_niveau-1">2. Niveau 1</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Statische Grafiken&#8201;&#8212;&#8201;keine Vorkenntnisse</p>
+</div>
+<div class="paragraph">
+<p>Mit Processing können statische Grafiken erstellt werden. Die Grafik wird
+entsprechend der Reihenfolge der Grafikbefehle erstellt.</p>
+</div>
+<div class="sect2">
+<h3 id="_beispiel">Beispiel</h3>
+<div class="sm:block md:flex">
+<div class="listingblock">
+<div class="content">
+<pre>size(300,300);
+background(173,204,214);
+fill(49,87,100);
+strokeWeight(5);
+strokeJoin(ROUND);
+stroke(34,60,70);
+line(50,40,100,280);
+rect(30,70,60,30);
+fill(152,64,72);
+ellipse(100,200,100,70);
+strokeWeight(8);
+point(200,250);
+noStroke();
+arc(170,120,200,200,radians(-125),radians(35));
+fill(52,180,27);
+textSize(50);
+text("Processing", 10, 180);</pre>
+</div>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="kLITbtLLsGWWZRuRPOlHGvwTLuKUXCZIyPYgTHmUknVcJSFpRa">
+  size(300,300);
+background(173,204,214);
+fill(49,87,100);
+strokeWeight(5);
+strokeJoin(ROUND);
+stroke(34,60,70);
+line(50,40,100,280);
+rect(30,70,60,30);
+fill(152,64,72);
+ellipse(100,200,100,70);
+strokeWeight(8);
+point(200,250);
+noStroke();
+arc(170,120,200,200,radians(-125),radians(35));
+fill(52,180,27);
+textSize(50);
+text("Processing", 10, 180);
+  </script>
+  <canvas id="kLITbtLLsGWWZRuRPOlHGvwTLuKUXCZIyPYgTHmUknVcJSFpRa"></canvas>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aufgaben">Aufgaben</h3>
+<div class="paragraph">
+<p>Erstellen Sie die folgenden statischen Grafiken mit Processing.
+Verwenden Sie als Hilfe</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>den Abschnitt <a href="http://michaelkipp.de/processing/01%20zeichnen.html">Zeichnen</a>
+von Michael Kipp und</p>
+</li>
+<li>
+<p>die <a href="https://processing.org/reference/">Processing Language Reference (API)</a>.</p>
+</li>
+</ul>
+</div>
+<div class="flex flex-wrap">
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="CvqzuEbRKCkVoDACuauCaEalOkMHJaxMBCjLPXlSKkoGDPfhUS">
+  size(300,300);
+background(173,204,214);
+fill(49,87,100);
+strokeWeight(10);
+strokeJoin(ROUND);
+stroke(96,172,198);
+line(20,20,280,280);
+line(20,280,280,20);
+stroke(34,60,70);
+rect(100,100,100,100);
+  </script>
+  <canvas id="CvqzuEbRKCkVoDACuauCaEalOkMHJaxMBCjLPXlSKkoGDPfhUS"></canvas>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="mfbTiGqBBAQoVdebpNmXaWdSIjgMeRALwRWfbHavAbZVauTeKk">
+  size(300,300);
+background(173,204,214);
+fill(49,87,100);
+strokeWeight(8);
+strokeJoin(ROUND);
+stroke(34,60,70);
+ellipse(150,150,240,240);
+stroke(96,172,198);
+ellipse(150,150,180,180);
+stroke(34,60,70);
+ellipse(150,150,120,120);
+stroke(96,172,198);
+ellipse(150,150,60,60);
+  </script>
+  <canvas id="mfbTiGqBBAQoVdebpNmXaWdSIjgMeRALwRWfbHavAbZVauTeKk"></canvas>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="NjtlcvYKaLkFLkQhzkVvSgGSdVhHCkhUwMLjitvaIFoICMTWXr">
+  size(300,300);
+background(173,204,214);
+fill(49,87,100);
+strokeWeight(0);
+strokeJoin(ROUND);
+strokeCap(SQUARE);
+arc(150,150,180,180,radians(-45),radians(225));
+fill(152,64,72);
+arc(150,130,180,180,radians(-135),radians(-45));
+  </script>
+  <canvas id="NjtlcvYKaLkFLkQhzkVvSgGSdVhHCkhUwMLjitvaIFoICMTWXr"></canvas>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_niveau-2">3. Niveau 2</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Interaktive Grafiken&#8201;&#8212;&#8201;Vorkenntnisse mit Grafikprogrammierung</p>
+</div>
+<div class="paragraph">
+<p>Die folgenden Sketches sind interaktiv und reagieren auf die Position des
+Mauszeigers. Interaktive Sketches bestehen zumindest aus den beiden
+Funktionen <code>setup()</code> und <code>draw()</code>.
+Die Funktion <code>setup()</code> wird beim Start genau
+einmal ausgeführt, die Funktion <code>draw()</code> wird nach <code>setup()</code> bis
+zum Programmabbruch
+wiederholt (&#8222;endlos&#8220;) ausgeführt.</p>
+</div>
+<div class="sect2">
+<h3 id="_beispiel-2">Beispiel</h3>
+<div class="sm:block md:flex">
+<div class="listingblock">
+<div class="content">
+<pre>void setup() {
+  size(300,300);
+  noStroke();
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  if (mouseX > 0 && mouseX < 100) {
+    rect(0,0,100,300);
+  }
+  if (mouseX >= 100 && mouseX < 200) {
+    rect(100,0,100,300);
+  }
+  if (mouseX >= 200 && mouseX < 300) {
+    rect(200,0,100,300);
+  }
+}</pre>
+</div>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="cYCiQFHrfuLJeKTDUCDhRHxvwSlduhdmPQqhwpHJLbEdTmqDcQ">
+  void setup() {
+  size(300,300);
+  noStroke();
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  if (mouseX > 0 && mouseX < 100) {
+    rect(0,0,100,300);
+  }
+  if (mouseX >= 100 && mouseX < 200) {
+    rect(100,0,100,300);
+  }
+  if (mouseX >= 200 && mouseX < 300) {
+    rect(200,0,100,300);
+  }
+}
+  </script>
+  <canvas id="cYCiQFHrfuLJeKTDUCDhRHxvwSlduhdmPQqhwpHJLbEdTmqDcQ"></canvas>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aufgaben-2">Aufgaben</h3>
+<div class="paragraph">
+<p>Erstellen Sie die folgenden interaktiven Sketches mit Processing,
+die auf die Position des Mauszeigers reagieren.
+Verwenden Sie als Hilfe</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>die Abschnitte <a href="http://michaelkipp.de/processing/01%20zeichnen.html">Zeichnen</a>,
+<a href="http://michaelkipp.de/processing/03%20interaktion.html">Interaktion</a> und
+<a href="http://michaelkipp.de/processing/05%20ifanweisung.html">If-Anweisung</a>
+von Michael Kipp sowie</p>
+</li>
+<li>
+<p>die <a href="https://processing.org/reference/">Processing Language Reference (API)</a>.</p>
+</li>
+</ul>
+</div>
+<div class="flex flex-wrap">
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="ssWnouAnvCShkQtzVFLsaAgApagHlxEefEYEHojlXNLOlSpfDl">
+  void setup() {
+  size(300,300);
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  strokeWeight(10);
+  strokeJoin(ROUND);
+  if (mouseX > 100 && mouseX < 200 && mouseY > 100 && mouseY < 200) {
+    fill(152,64,72);
+   }
+   rect(100,100,100,100);
+}
+  </script>
+  <canvas id="ssWnouAnvCShkQtzVFLsaAgApagHlxEefEYEHojlXNLOlSpfDl"></canvas>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="BDNMmAhOWfkFzQPvTJklmMiXVxTipYedgjsPwAFyKTmTMHagSI">
+  void setup() {
+  size(300,300);
+}
+
+float d() {
+  return dist(mouseX,mouseY,150,150);
+}
+
+void chooseFillColor(int lower, int upper) {
+  if (d() < upper && d() > lower) {
+    fill(152,64,72);
+  } else {
+    fill(49,87,100);
+  }
+}
+
+void draw() {
+  background(173,204,214);
+  strokeWeight(8);
+  strokeJoin(ROUND);
+  stroke(34,60,70);
+  chooseFillColor(90,120);
+  ellipse(150,150,240,240);
+  stroke(96,172,198);
+  chooseFillColor(60,90);
+  ellipse(150,150,180,180);
+  stroke(34,60,70);
+  chooseFillColor(30,60);
+  ellipse(150,150,120,120);
+  stroke(96,172,198);
+  chooseFillColor(0,30);
+  ellipse(150,150,60,60);
+}
+  </script>
+  <canvas id="BDNMmAhOWfkFzQPvTJklmMiXVxTipYedgjsPwAFyKTmTMHagSI"></canvas>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_niveau-3">4. Niveau 3</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Zustandsbasierte, interaktive Sketches&#8201;&#8212;&#8201;Vorkenntnisse mit Grafikprogrammierung und bedingten Anweisungen</p>
+</div>
+<div class="paragraph">
+<p>Viele Sketches können nur mithilfe von Variablen realisiert werden,
+die den Systemzustand abbilden.
+Die Funktion <code>mousePressed()</code> wird vom System ausgeführt, wenn
+die Maus gedrückt wurde. Im Beispiel ändert diese den Zustand der
+Variablen <code>bgcolor</code>.</p>
+</div>
+<div class="sect2">
+<h3 id="_beispiele">Beispiele</h3>
+<div class="sm:block md:flex">
+<div class="listingblock">
+<div class="content">
+<pre>int bgcolor = "blue";
+
+void setup() {
+  size(300,300);
+}
+
+void draw() {
+  if (bgcolor == "blue") {
+    background(173,204,214);
+  } else if (bgcolor == "red") {
+    background(152,64,72);
+  }
+}
+
+void mousePressed() {
+  if (bgcolor == "blue") {
+    bgcolor = "red";
+  } else {
+    bgcolor = "blue";
+  }
+}</pre>
+</div>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="pzwrexqGacGjxgKxSehvVVKYJAnVZuXcVMTqgYldpnhAAfGhAX">
+  int bgcolor = "blue";
+
+void setup() {
+  size(300,300);
+}
+
+void draw() {
+  if (bgcolor == "blue") {
+    background(173,204,214);
+  } else if (bgcolor == "red") {
+    background(152,64,72);
+  }
+}
+
+void mousePressed() {
+  if (bgcolor == "blue") {
+    bgcolor = "red";
+  } else {
+    bgcolor = "blue";
+  }
+}
+  </script>
+  <canvas id="pzwrexqGacGjxgKxSehvVVKYJAnVZuXcVMTqgYldpnhAAfGhAX"></canvas>
+</div>
+</div>
+<div class="sm:block md:flex">
+<div class="listingblock">
+<div class="content">
+<pre>int x, y, dx, dy, r;
+
+void setup() {
+  x = 125;
+  y = 10;
+  dx = 0;
+  dy = 11;
+  r = 20;
+  size(300,300);
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  ellipse(x, y, 2*r, 2*r);
+  x = x + dx;
+  y = y + dy;
+  if (y > height || y < 0) {
+    dy = -1 * dy;
+  }
+}</pre>
+</div>
+</div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="sIFhFDhqEZYvrjXTjBeGZcFzBuebezcNZPptdVpQrkkIeYUkjj">
+  int x, y, dx, dy, r;
+
+void setup() {
+  x = 125;
+  y = 10;
+  dx = 0;
+  dy = 11;
+  r = 20;
+  size(300,300);
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  ellipse(x, y, 2*r, 2*r);
+  x = x + dx;
+  y = y + dy;
+  if (y > height || y < 0) {
+    dy = -1 * dy;
+  }
+}
+  </script>
+  <canvas id="sIFhFDhqEZYvrjXTjBeGZcFzBuebezcNZPptdVpQrkkIeYUkjj"></canvas>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aufgaben-3">Aufgaben</h3>
+<div class="paragraph">
+<p>Erstellen Sie die folgenden interaktiven Sketches mit Processing.
+Verwenden Sie als Hilfe</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>die Abschnitte <a href="http://michaelkipp.de/processing/01%20zeichnen.html">Zeichnen</a>,
+<a href="http://michaelkipp.de/processing/03%20interaktion.html">Interaktion</a>,
+<a href="http://michaelkipp.de/processing/04%20variablen.html">Variablen</a> und
+<a href="http://michaelkipp.de/processing/05%20ifanweisung.html">If-Anweisung</a>
+von Michael Kipp sowie</p>
+</li>
+<li>
+<p>die <a href="https://processing.org/reference/">Processing Language Reference (API)</a></p>
+</li>
+</ul>
+</div>
+<div class="flex flex-wrap">
+<div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="bDwTjWZTVOIKEBqLfaBihjgjVPMKLDTERpAklQyqmUJHgaydHU">
+  int state = 0;
+
+void setup() {
+  size(300,300);
+}
+
+void draw() {
+  background(173,204,214);
+  strokeWeight(10);
+  strokeJoin(ROUND);
+  if (state == 0) {
+    fill(152,64,72);
+  } else if (state == 1) {
+    fill(23,43,112);
+  } else {
+    fill(43,112,67);
+  }
+  rect(100,100,100,100);
+}
+
+void mousePressed() {
+  if (mouseX > 100 && mouseX < 200
+     && mouseY > 100 && mouseY < 200) {
+    state = (state + 1) % 3;
+  }
+}
+  </script>
+  <canvas id="bDwTjWZTVOIKEBqLfaBihjgjVPMKLDTERpAklQyqmUJHgaydHU"></canvas>
+</div>
+<div class="paragraph">
+<p>Klicken Sie auf das Rechteck.</p>
+</div>
+</div><div>
+<div class="ml-3">
+  <script type="application/processing" data-processing-target="FtRcWhBVuzElFiFKSZiJuQGbbLjfpaLoWlmBIbXapGXTufIHDF">
+  int x, y, dx, dy, r;
+
+void setup() {
+  x = 10;
+  y = 10;
+  dx = 8;
+  dy = 12;
+  r = 20;
+  size(300,300);
+}
+
+void draw() {
+  background(173,204,214);
+  fill(49,87,100);
+  ellipse(x, y, 2*r, 2*r);
+  x = x + dx;
+  y = y + dy;
+  if (y > height - r && dy > 0 || y < r && dy < 0) {
+    dy = -1 * dy;
+  }
+  if (x > width - r && dx > 0 || x < r && dx < 0) {
+    dx = -1 * dx;
+  }
+}
+  </script>
+  <canvas id="FtRcWhBVuzElFiFKSZiJuQGbbLjfpaLoWlmBIbXapGXTufIHDF"></canvas>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_niveau-4">5. Niveau 4</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Vorkenntnisse in Datenstrukturen, Variablen und Grafik-Programmierung&#8201;&#8212;&#8201;Vorkenntnisse mit zustandsbasierter Programmierung und interaktiven
+Sketchen</p>
+</div>
+<div class="paragraph">
+<p>Für dieses Niveau werden keine vorgegebenen Sketches als Aufgaben
+vorgegeben, sondern es werden
+lediglich Ideen genannt, wie der Sketch mit dem abprallenden Ball von Niveau 3
+weiterentwickelt werden kann.</p>
+</div>
+<div class="sect2">
+<h3 id="_mögliche-aufgaben">Mögliche Aufgaben</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Erstellen Sie einen Sketch mit mehreren abprallenden Bällen</p>
+</li>
+<li>
+<p>Fügen Sie eine Möglichkeit hinzu, dass neue Bälle per Mausklick
+hinzugefügt werden können.</p>
+</li>
+<li>
+<p>Erstellen Sie ein Pong-Spiel: Ergänzen Sie den abprallen Ball um
+ein steuerbares Panel, an dem der Ball ebenfalls abprallt.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hilfen">Hilfen</h3>
+<div class="paragraph">
+<p>Verwenden Sie als Hilfe</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Abschnitte <a href="http://michaelkipp.de/processing/01%20zeichnen.html">Zeichnen</a>,
+<a href="http://michaelkipp.de/processing/03%20interaktion.html">Interaktion</a>,
+<a href="http://michaelkipp.de/processing/04%20variablen.html">Variablen</a> und
+<a href="http://michaelkipp.de/processing/05%20ifanweisung.html">If-Anweisung</a> und ggf.
+<a href="http://michaelkipp.de/processing/07%20schleifen.html">Schleifen</a>,
+<a href="http://michaelkipp.de/processing/08%20arrays.html">Arrays</a> und
+<a href="http://michaelkipp.de/processing/09%20funktionen.html">Funktionen</a>
+von Michael Kipp sowie</p>
+</li>
+<li>
+<p>die <a href="https://processing.org/reference/">Processing Language Reference (API)</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links">6. Links</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Kurs <a href="http://michaelkipp.de/processing/index.html">Processing und Java</a>
+von Michael Kipp</p>
+</li>
+<li>
+<p><a href="http://btk.tillnagel.com/creative-coding-1/">Creative Coding</a> von Till Nagel</p>
+</li>
+<li>
+<p><a href="https://www.openprocessing.org/">OpenProcessing</a> Community-Platform</p>
+</li>
+<li>
+<p><a href="http://www.creativecoding.org/">CreativeCoding.org</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lizenz">Lizenz</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><a class="image" href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="/images/cc-by-sa-88x31.png" alt="Creative Commons Lizenzvertrag"></a></span><br>
+Dieses Werk ist lizenziert unter einer<br>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</p>
+</div>
+</div>
+</div>
 
 	    </div>
 	  </div>
