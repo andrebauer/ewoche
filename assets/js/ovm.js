@@ -10,11 +10,11 @@ $(document).ready(function() {
 
 //Function to the css rule
 function checkSize(){
-  if ($(".toc").css("float") == "none" ){
+  if ($(".tocfloat").css("float") == "left" ){
     $('#toc').appendTo('#toc-left');
     $('#sidebar-left').toggle(true);
   } else {
-    $('#toc').prependTo('.post-content');
+    $('#toc').prependTo('.inline-toc');
     $('#sidebar-left').toggle(false);
   /*  $('#navbar-top-na */
   }
